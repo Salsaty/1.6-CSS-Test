@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+  
+<h1 class="display-1 text-center text-primary border border-5 border-success p-4 my-4">Hello, world!</h1>
+
+  <div id="carouselExample" class="carousel slide my-5">
+ <div class="carousel-inner">
+ <div class="carousel-item active">
+ <img src="https://via.placeholder.com/800x400?text=Lost+Wallet+-+Brown+Leather" class="d-block w-100" alt="Lost wallet image 1">
+ </div>
+  <div class="carousel-item">
+ <img src="https://via.placeholder.com/800x400?text=Lost+Wallet+-+Front+View" class="d-block w-100" alt="Lost wallet image 2">
+ </div>
+ <div class="carousel-item">
+<img src="https://via.placeholder.com/800x400?text=Lost+Wallet+-+Contents" class="d-block w-100" alt="Lost wallet image 3">
+ </div>
+ </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+ <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+ <span class="visually-hidden">Previous</span>
+</button>
+ <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+ <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+  </button>
+ </div>
+
+ <div class="my-5">
+ <button type="button" class="btn btn-lg btn-dark">Dark Button (Active)</button>
+ <button type="button" class="btn btn-lg btn-success disabled">Success Button (Disabled)</button>
+ <a href="https://www.google.com" target="_blank" class="btn btn-lg btn-primary">Visit Google</a>
+ <a href="https://www.github.com" target="_blank" class="btn btn-lg btn-info">Visit GitHub</a>
+  </div>
+
+  <div class="my-5 p-4 border border-2 border-info">
+ <h2 class="text-info mb-4">Lost Item Form</h2>
+  <form>
+ <div class="mb-3">
+ <label for="itemName" class="form-label">Item Name</label>
+ <input type="text" class="form-control" id="itemName" placeholder="Enter item name">
+ </div>
+          
+  <div class="mb-3">
+ <label for="itemDescription" class="form-label">Description</label>
+ <textarea class="form-control" id="itemDescription" rows="3" placeholder="Describe your lost item"></textarea>
+ </div>  
+ <div class="mb-3">
+ <label for="location" class="form-label">Last Seen Location</label>
+ <input type="text" class="form-control" id="location" placeholder="Where did you lose it?">
+  </div>
+
+ <div class="mb-3">
+ <label for="date" class="form-label">Date Lost</label>
+<input type="date" class="form-control" id="date">
+ </div>
+
+ <div class="mb-3">
+ <label for="contact" class="form-label">Contact Email</label>
+ <input type="email" class="form-control" id="contact" placeholder="your@email.com">
+ </div>
+ <div class="mb-3 form-check">
+ <input type="checkbox" class="form-check-input" id="reward" checked>
+ <label class="form-check-label" for="reward">
+  I'm offering a money bring it to me please!
+   </label>
+ </div>
+
+ <button type="submit" class="btn btn-success btn-lg">Submit Report</button>
+  <button type="reset" class="btn btn-secondary btn-lg ms-2">Clear</button>
+  </form>
+  </div>
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
